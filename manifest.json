@@ -8,8 +8,7 @@
   "permissions": [
     "activeTab",
     "downloads",
-    "scripting",
-    "storage"
+    "scripting"
   ],
   "content_scripts": [
     {
