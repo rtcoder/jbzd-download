@@ -1,0 +1,44 @@
+.jbzd-dwl-btn {
+    position: absolute;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    top: 0;
+    right: 0;
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.jbzd-dwl-btn .btn-tooltip {
+    position: absolute;
+    width: max-content;
+    display: none;
+    right: calc(100% + 1px);
+    color: #fff;
+    user-select: none;
+    background: #1f1f1f;
+    padding: 5px;
+}
+
+.jbzd-dwl-btn.on-image {
+    right: 10px;
+    bottom: 10px;
+    top: auto;
+}
+
+.jbzd-dwl-btn svg {
+    width: 18px;
+    fill: #fff;
+}
+
+.jbzd-dwl-btn:hover {
+    background: #de2127;
+}
+
+.jbzd-dwl-btn:hover .btn-tooltip {
+    display: flex;
+}
