@@ -5,11 +5,7 @@
   "author": "Dawid Jeż",
   "minimum_chrome_version": "116",
   "manifest_version": 3,
-  "permissions": [
-    "activeTab",
-    "downloads",
-    "scripting"
-  ],
+  "permissions": ["downloads"],
   "content_scripts": [
     {
       "matches": [
